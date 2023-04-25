@@ -1,0 +1,117 @@
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main {
+    background-color: hsl(0, 0%, 98%);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0 20px ;
+}
+.item > p {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.item > h3 {
+    color: hsl(234, 12%, 34%);
+}
+.card1 {
+    margin-right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+}
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.card4 {
+    margin-left: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.color1 {
+    background-color: hsl(180, 62%, 55%);
+    height: 3px;
+    border-radius: 20px 20px 0 0;
+}
+.color2 {
+    background-color:  hsl(0, 78%, 62%);
+    height: 3px;
+    border-radius: 20px 20px 0 0;
+}
+.color3 {
+    background-color: hsl(34, 97%, 64%);
+    height: 3px;
+    border-radius: 20px 20px 0 0;
+}
+.color4 {
+    background-color: hsl(212, 86%, 64%);
+    height: 3px;
+    border-radius: 20px 20px 0 0;
+}
+.use {
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.head1 {
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    padding-top: 3rem;
+} 
+.head2 {
+    text-align: center;
+    margin: 0;
+}
+img {
+    float: right;
+    padding-right: 25px;
+    height: 50px;
+    padding-top: 25px;
+}
+.head1 > h1 {
+    font-weight: 200;
+    display: inline;
+}
+h4 {
+    font-weight: 200;    
+}
+.head2 > h1 {
+    display: inline;
+    color: hsl(234, 12%, 34%);
+}
+/* For mobile */
+@media only screen and (max-width: 600px) {
+    .use > h4 {
+        text-align: center;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .con1 {
+        margin-left: 25px;
+        margin-bottom: 25px;
+        }
+        .con4 {
+            margin-right: 25px;
+            margin-top: 25px;
+        }
+}
+
+
+
+.footer { font-size: 11px; text-align: center; }
+.footer a { color: hsl(228, 45%, 44%); }
